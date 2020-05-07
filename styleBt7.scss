@@ -1,0 +1,832 @@
+@import'reset';
+
+
+
+.container{
+    max-width: 1100px;
+    margin: 0px auto;
+}
+header{
+    .bg-img{
+        background-image: url("http://202.182.100.160:1234/images/ban11.png");
+        background-size: cover;
+        background: grey;
+        position: relative;
+        height: 650px;
+        .bg-black{
+            // background: rgba(hsl(0, 3%, 21%), 0.3);
+            background:rgba(black,0.5);
+            // position: relative;
+            height: 650px;
+            .container{
+                .first-header{
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 40px;
+                    .icon-logo{
+                        display: flex;
+                        justify-content: start;
+                        > i{
+                            margin-top: 10px;
+                            font-size: 30px;
+                            color: #5e2ced;
+                        }
+                        .logo{
+                            margin-left: 10px;
+                            color: white;
+                            font-size: 40px;
+                        }
+                    }
+                    .menu{
+                        > ul{
+                            display: flex;
+                            justify-content: space-between;
+                            padding-top: 10px;
+                            > li{
+                                > a{
+                                    color: rgba(white, 0.9);
+                                    font-size: 20px;
+                                    margin-left: 20px;
+                                    &:hover{
+                                        color:rgba(white, 0.3);
+                                    }
+                                }
+                                .bg-blue{
+                                    padding: 10px 20px;
+                                    background: #5e2ced;
+                                    border-radius: 5px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .header-title{
+                    margin: 160px 300px 30px 0px;
+                    color: white;
+                    font-size: 60px;
+                    letter-spacing: 1px;//tăng khoảng cách giữa các ký tự
+                }
+                > a{
+                    font-size: 20px;
+                    line-height: 28px;//thiết lập khoảng cách giữa các dòng
+                    letter-spacing: 2px;//tăng khoảng cách giữa các ký tự
+                    color: white;
+                    background:#5e2ced;
+                    padding: 10px 30px;
+                    border-radius: 3px;
+                }
+            }
+        }
+    }
+}
+main{
+    .first-main{
+        background: rgba(grey, 0.1);
+        .container{
+            .preamble{
+                padding-top: 100px;
+                display: flex;
+                justify-content: center;
+                color: black;
+                font-size: 17px;
+                letter-spacing: 2px;//tăng khoảng cách giữa các ký tự
+            }
+            .first-main-title{
+                display: flex;
+                justify-content: center;
+                color:rgba(black,0.8);
+                font-size: 40px;
+                letter-spacing: 2px;
+                margin-bottom: 40px;
+            }
+            .first-main-content{
+                display: flex;
+                justify-content: space-between;
+                .pB-100{
+                    padding-bottom: 100px;
+                }
+                .content{
+                    margin: 20px 20px 20px 0px;
+                    .number{
+                        color:#5e2ced;
+                        background: rgba(94,44,237,0.15);
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 24px;
+                        font-weight: 800;
+                        width: 60px;
+                        height: 60px;
+                        margin-bottom: 20px;
+                    }
+                    .content-title{
+                        color: black;
+                        font-size: 20px;
+                    }
+                    .content-detail{
+                        font-size: 16px;
+                        color:grey;
+                        letter-spacing: 2px;
+                        line-height: 28px;
+                    }
+                }
+            }
+        }
+    }     
+    .second-main{
+        margin-top: 100px;
+        .container{
+            .preamble{
+                display: flex;
+                justify-content: center;
+                color: black;
+                font-size: 17px;
+                letter-spacing: 2px;//tăng khoảng cách giữa các ký tự
+            }
+            .second-main-title{
+                display: flex;
+                justify-content: center;
+                color:rgba(black,0.8);
+                font-size: 40px;
+                letter-spacing: 2px;
+            }
+            .second-main-content{
+                margin-top: 40px;
+                display: flex;
+                justify-content: space-between;
+                .left-content{
+                    margin-right: 40px;
+                    > img{
+                        max-width: 100%;
+                        height: auto;
+                    }
+                    .content{
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 60px;
+                        > i{
+                            color:#5e2ced;
+                            background: rgba(94,44,237,0.15);
+                            border-radius: 50%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-size: 20px;
+                            font-weight: 800;
+                            width: 50px;
+                            height: 50px;
+                            padding: 0px 14px;//chỉnh hình tròn nền
+                            margin-right: 30px;
+                        }
+                        > div{
+                            .content-title{
+                                color: black;
+                                font-size: 20px;
+                                margin-bottom: 20px;
+                                letter-spacing: 2px;//tăng khoảng cách giữa các ký tự
+                            }
+                            .content-detail{
+                                font-size: 16px;
+                                color:grey;
+                                letter-spacing: 2px;
+                                line-height: 28px;
+                                margin-bottom: 20px;
+                            }
+                            .node{
+                                // margin-top: 20px;
+                                font-size: 20px;
+                                line-height: 28px;//thiết lập khoảng cách giữa các dòng
+                                letter-spacing: 2px;//tăng khoảng cách giữa các ký tự
+                                color: white;
+                                background:#5e2ced;
+                                padding: 10px 20px;
+                                border-radius: 3px;
+                            }
+                        }
+                    }
+                }
+                .right-content{
+                    .content{
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 60px;
+                        > i{
+                            color:#5e2ced;
+                            background: rgba(94,44,237,0.15);
+                            border-radius: 50%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-size: 20px;
+                            font-weight: 800;
+                            width: 50px;
+                            height: 50px;
+                            padding: 0px 14px;//chỉnh hình tròn nền
+                            margin-right: 30px;
+                        }
+                        > div{
+                            .content-title{
+                                color: black;
+                                font-size: 20px;
+                                margin-bottom: 20px;
+                                letter-spacing: 2px;//tăng khoảng cách giữa các ký tự
+                            }
+                            .content-detail{
+                                font-size: 16px;
+                                color:grey;
+                                letter-spacing: 2px;
+                                line-height: 28px;
+                                margin-bottom: 20px;
+                            }
+                            .node{
+                                font-size: 20px;
+                                line-height: 28px;//thiết lập khoảng cách giữa các dòng
+                                letter-spacing: 2px;//tăng khoảng cách giữa các ký tự
+                                color: white;
+                                background:#5e2ced;
+                                padding: 10px 20px;
+                                border-radius: 3px;
+                            }
+                        }
+                    }
+                    > div{
+                        > img{
+                            max-width: 100%;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .third-main{
+        background: rgba(grey, 0.1);
+        padding: 100px 0px;
+        .container{
+            .preamble{
+                display: flex;
+                justify-content: center;
+                color: black;
+                font-size: 17px;
+                letter-spacing: 2px;//tăng khoảng cách giữa các ký tự
+            }
+            .third-main-title{
+                margin-bottom: 40px;
+                display: flex;
+                justify-content: center;
+                color:rgba(black,0.8);
+                font-size: 40px;
+                letter-spacing: 2px;
+            }
+            > div{
+                display: flex;
+                justify-content: space-between;
+                > img{
+                    max-width: 100%;
+                    height: auto;
+                    background: #fff;
+                    padding: 0.25rem;
+                    border-radius: 0.25rem;
+                    border: 1px solid #dee2e6;
+                }
+            }
+        }
+    }
+    .fourth-main{
+        margin-top: 100px;
+        padding-bottom: 100px;
+        .container{
+            .preamble{
+                display: flex;
+                justify-content: center;
+                color: black;
+                font-size: 17px;
+                letter-spacing: 2px;//tăng khoảng cách giữa các ký tự
+            }
+            .fourth-main-title{
+                margin-bottom: 50px;
+                display: flex;
+                justify-content: center;
+                color:rgba(black,0.8);
+                font-size: 40px;
+                letter-spacing: 2px;
+            }
+            .top-pic{
+                display: flex;
+                justify-content: space-between;
+                > a{
+                    > img{
+                        resize: horizontal;//có thể thay đổi kích thước theo chiều thẳng đứng
+                        height: 200px;
+                        width: 260px;
+                    }
+                }
+            }
+            .bottom-pic{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+                > a{
+                    > img{
+                        resize: horizontal;//có thể thay đổi kích thước theo chiều thẳng đứng
+                        height: 200px;
+                        width: 260px;
+                    }
+                }
+            }
+        }
+    }
+    .fifth-main{
+        background: rgba(grey, 0.1);
+        padding: 100px 0px;
+        .container{
+            .preamble{
+                display: flex;
+                justify-content: center;
+                color: black;
+                font-size: 17px;
+                letter-spacing: 2px;//tăng khoảng cách giữa các ký tự
+            }
+            .fourth-main-title{
+                margin-bottom: 50px;
+                display: flex;
+                justify-content: center;
+                color:rgba(black,0.8);
+                font-size: 40px;
+                letter-spacing: 2px;
+            }
+            .fifth-main-content{
+                display: flex;
+                justify-content: space-between;
+                .content{
+                    background: white;
+                    border: 1px solid  rgba(grey, 0.3);
+                    border-radius: 3px;
+                    width: 350px;
+                    height: 400px;
+                    > i{
+                        margin: 50px 0px 10px 139px;
+                        color:#5e2ced;
+                        background: rgba(94,44,237,0.15);
+                        border-radius: 50%;
+                        display: flex;//chỉnh icon ở chính giữa nền tròn
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 35px;
+                        font-weight: 800;
+                        width: 70px;
+                        height: 70px;
+                   
+                    }
+                    .type{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-bottom: 10px;
+                    }
+                    .price{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: grey;
+                        font-size: 24px;
+                        margin-bottom: 10px;
+                    
+                    }
+                    .detail{
+                        text-align: center;//căn chính giữa
+                        font-size: 17px;
+                        color:grey;
+                        letter-spacing: 2px;//tăng khoảng cách giữa các ký tự
+                        line-height: 28px;
+                        margin:0px 30px 40px 30px;
+                    }
+                    .node{
+                        margin: 0px 0px 0px 110px;
+                        font-size: 15px;
+                        line-height: 28px;//thiết lập khoảng cách giữa các dòng
+                        letter-spacing: 2px;//tăng khoảng cách giữa các ký tự
+                        color: white;
+                        background:#5e2ced;
+                        padding: 10px 20px;
+                        border-radius: 3px;
+                    }
+                }
+            }
+        }
+    }
+    .sixth-main{
+        .bg-img2{
+            background-image: url(http://202.182.100.160:1234/images/r1.png);
+            background-size: cover;
+            background: grey;
+            position: relative;
+            height: 750px;
+            .bg-black{
+                background:rgba(black,0.5);
+                height: 750px;
+                .container{
+                    .sixth-main-title{
+                        padding-top: 100px;
+                        display: flex;
+                        justify-content: center;
+                        color:white;
+                        font-size: 40px;
+                        letter-spacing: 2px;
+                    }
+                    .detail{
+                        > p{
+                            // display: flex;
+                            // justify-content: center;
+                            font-size: 17px;
+                            color:rgba(white, 0.6);
+                            margin: 10px 100px 20px 100px;
+                            letter-spacing: 2px;
+                            line-height: 28px;
+                        }
+
+                    }
+                    > .node{
+                        display: flex;
+                        justify-content: center;
+                        > a{
+                            font-size: 20px;
+                            line-height: 28px;//thiết lập khoảng cách giữa các dòng
+                            letter-spacing: 2px;//tăng khoảng cách giữa các ký tự
+                            color: white;
+                            // background:#5e2ced;
+                            padding: 10px 20px;
+                            border: 2px solid white;
+                            border-radius: 3px;
+                            margin: 0px 10px;
+                        }
+
+                    }
+                    > .information{
+                        display: flex;
+                        justify-content: center;
+                        > .content{
+                            width: 600px;
+                            height: 340px;
+                            background: rgba(black,0.5);
+                            margin-top: 30px;
+                            .title{
+                                display: flex;
+                                justify-content: center;
+                                margin-top: 40px;
+                                letter-spacing: 2px;//tăng khoang cách giửa các ký tự
+                                color: white;
+                                font-size: 24px;
+                            }
+                            .node{
+                                display: flex;
+                                justify-content: center;
+                                margin: 10px;
+                                > div{
+                                    display: flex;
+                                    align-items: center;
+                                    padding-left: 10px;
+                                    width: 260px;
+                                    height: 50px;
+                                    font-size: 17px;
+                                    color: rgba(black, 0.5);
+                                    margin: 2px;
+                                    background: white;
+                                }
+                            }
+                            .register-node{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                > a{
+                                    width: 520px;
+                                    height: 50px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    letter-spacing: 1px;
+                                    color: white;
+                                    font-size: 20px;
+                                    background: #5e2ced;
+                                }
+
+                            }
+                            .end-infor{
+                                display: flex;
+                                justify-content: center;
+                                font-size: 17px;
+                                color: rgba(white, 0.6);
+                                margin-top: 5px;
+                                > span{
+                                    color: #5e2ced;
+                                    margin-left: 3px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .seventh-main{
+        .bg-grey{
+            background: rgba(grey, 0.1);
+            padding: 100px 0px;
+            .container{
+                .preamble{
+                    display: flex;
+                    justify-content: center;
+                    color: black;
+                    font-size: 17px;
+                    letter-spacing: 2px;//tăng khoảng cách giữa các ký tự
+                }
+                .seventh-main-title{
+                    margin-bottom: 40px;
+                    display: flex;
+                    justify-content: center;
+                    color:rgba(black,0.8);
+                    font-size: 40px;
+                    letter-spacing: 2px;
+                }
+                .seventh-main-content{
+                    display: flex;
+                    justify-content: space-between;
+                    .content{
+                        width: 540px;
+                        height: 200px;
+                        background: #5e2ced;
+                        display: flex;
+                        justify-content: space-between;
+                        > img{
+                            display: flex;
+                            justify-content: center;
+                            width: 50%;
+                            height: 80%;
+                            border-radius: 50%;
+                            border: 5px solid white;
+                            margin: 20px;
+                        }
+                        .detail-content{
+                            margin-top: 30px;
+                            .detail{
+                                > span{
+                                    > i{
+                                        color: black;
+                                        font-size: 15px;
+                                    }
+                                }
+                                color: white;
+                                font-size: 17px;
+                                letter-spacing: 2px;
+                                line-height: 28px;
+                                font-family: 'Raleway', sans-serif;
+    
+                            }
+                            .customer-name{
+                                margin-top: 15px;
+                                color: black;
+                                font-size: 20px;
+                                > span{
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+    .eighth-main{
+        margin-top: 100px;
+        .container{
+            .eighth-main-content{
+                .preamble{
+                    display: flex;
+                    justify-content: center;
+                    color: black;
+                    font-size: 17px;
+                    letter-spacing: 2px;//tăng khoảng cách giữa các ký tự
+                }
+                .eighth-main-title{
+                    margin-bottom: 60px;
+                    display: flex;
+                    justify-content: center;
+                    color:rgba(black,0.8);
+                    font-size: 40px;
+                    letter-spacing: 2px;
+                }
+                .content{
+                    display: flex;
+                    justify-content: space-around;
+                    > img{
+                        width: 500px;
+                        height: auto;
+                    }
+                    > .information{
+                        padding-top: 20px;
+                        > h2{
+                            color:black;
+                            font-size: 30px;
+                            letter-spacing: 2px;
+                            font-weight: 400;
+                            // line-height: 1.2;
+                        }
+                        > .info{
+                            font-size: 17px;
+                            letter-spacing: 2px;
+                            width: 500px;
+                            height: 50px;
+                            color: rgba(black, 0.5);
+                            background:rgba(grey, 0.1);
+                            display: flex;
+                            align-items: center;
+                            padding: 10px;
+                            margin-top: 10px;
+                        }
+                        > .mess{
+                            width: 500px;
+                            height: 150px;
+                            font-size: 17px;
+                            letter-spacing: 2px;
+                            color: rgba(black, 0.5);
+                            background:rgba(grey, 0.1);
+                            padding: 10px;
+                            margin-top: 10px;
+                        }
+                        > a{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 500px;
+                            height: 50px;
+                            background: #5e2ced;
+                            margin-top: 10px;
+                            font-size: 24px;
+                            letter-spacing: 2px;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    margin-top: 100px;
+    .bg-black{
+        padding-top: 100px;
+        background: black;
+        .part1{
+            border-bottom: 1px solid white;
+            padding-bottom: 100px;
+            .container{
+                .footer-content{
+                    display: flex;
+                    justify-content: space-between;
+                    .first-content{
+                        width: 290px;
+                        margin-right: 20px;
+                        .type{
+                            font-size: 25px;
+                            color: white;
+                            margin-bottom: 20px;
+                        }
+                        .detail{
+                            color: rgba(white, 0.6);
+                            font-weight: 100;       
+                            line-height: 30px; 
+                            font-size: 14px;
+                            letter-spacing: 2px;
+                    
+                        }
+                    }
+                    .second-content{
+                        width: 290px;
+                        margin-right: 20px;
+                        .type{
+                            font-size: 25px;
+                            color: white;
+                            margin-bottom: 20px;
+                        }
+                        > i{
+                            color: #5e2ced;
+                            > span{
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                                color: rgba(white, 0.6);
+                                font-weight: 100;       
+                                line-height: 30px;
+                            }
+                        }
+                    }
+                    .third-content{
+                        width: 290px;
+                        .type{
+                            font-size: 25px;
+                            color: white;
+                            margin-bottom: 20px;
+                        }
+                        > nav{
+                            ul{
+                                li{
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                    color: rgba(white, 0.6);
+                                    font-weight: 100;       
+                                    line-height: 30px;
+                                }
+                            }
+                        }
+                    }
+                    .fourth-content{
+                        width: 290px;
+                        .type{
+                            font-size: 25px;
+                            color: white;
+                            margin-bottom: 20px;
+                        }
+                        .detail{
+                            font-size: 14px;
+                            letter-spacing: 2px;
+                            color: rgba(white, 0.6);
+                            font-weight: 100;       
+                            line-height: 30px; 
+                        }
+                        > .form{
+                            margin-top: 10px;
+                            display: flex;
+                            justify-content: center;
+                            .info{
+                                width: 190px;
+                                height: 40px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                                color: rgba(black, 0.6);
+                                font-weight: 100;       
+                                line-height: 30px;
+                                background: white;
+                                display: flex;
+                                align-items: center;
+                                padding: 10px;
+                            }
+                            > a{
+                                background: #5e2ced;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 100px;
+                                height: 40px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                                color: rgba(white, 0.6);
+                                font-weight: 100;       
+                                line-height: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .part2{
+            margin-top: 30px;
+            padding-bottom: 30px;
+            position: relative;
+            > .content{
+                > p{
+                    display: flex;
+                    justify-content: center;
+                    font-size: 14px;
+                    letter-spacing: 2px;
+                    color: rgba(white, 0.6);
+                    font-weight: 100;       
+                    line-height: 30px; 
+                }
+            }
+            > a{
+                >i{
+                    color: white;
+                    font-size: 15px;
+                    margin-left: 670px;
+                    background: rgba(white, 0.1);
+                    border-radius: 50%;
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    right: 20px;
+                    bottom: 30px;
+                }
+            }
+
+        }
+    }
+}
+//tạo hiệu ứng di chuyển
+html{
+    scroll-behavior: smooth;
+}
